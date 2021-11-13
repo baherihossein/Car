@@ -17,10 +17,18 @@ padding: 30px;}
     padding-bottom: 30px;
 }
     
-   .typeImages{
+.typeImages{
     margin: auto;
     padding: 30px;
     text-align: center;
-    font-size: 15px;
-    tex
-   } 
+    font-size: 15px;}
+
+.searchBrand h4{
+        margin-left: 20px;
+    }
+
+.searchType h4{
+            margin-left: 20px;
+        }
+        .cards{height: 500px;
+        background-color: lightgray;}
