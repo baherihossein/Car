@@ -1,0 +1,26 @@
+*{box-sizing: 
+    border-box;
+    margin: 0;
+    padding: 0;}
+
+.sectione2{
+    height: 500px;
+    background-color: rgba(116, 172, 241, 0.81);
+}
+.brandImages{
+    margin-top: 40px;
+    margin-left: 40px;
+padding: 30px;}
+
+.searchBrand{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+    
+   .typeImages{
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    tex
+   } 
