@@ -2,7 +2,7 @@
     border-box;
     margin: 0;
     padding: 0;}
-
+body{background-color: rgba(39, 131, 245, 0.43);}
 .sectione2{
     height: 500px;
     background-color: rgba(116, 172, 241, 0.81);
