@@ -72,113 +72,62 @@
       </nav>
 </header>
 
-<main>
   
 
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item active" style="height:250px !important;">
           <img class="bd-placeholder-img img-fluid" src="images/bg/mercedes_benz-hd-.jpg" />
         <div class="container">
           <div class="carousel-caption">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            <h1>Contact Us</h1>
+           
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-          <img class="bd-placeholder-img img-fluid" src="images/bg/mercedes_benz-download-3.jpg" />
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-          <img class="bd-placeholder-img img-fluid"  src="images/bg/mercedes_benz-hd-wallpaper-download-15.jpg" />
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
-        </div>
-      </div>
+   
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+
   </div><br>
   
-  <div class="Contact">
-
-
-    <div class="inner contact">
-        <!-- Form Area -->
-        <div class="contact-form">
-            <!-- Form -->
-            <form id="contact-us" method="post" action="#">
-                <!-- Left Inputs -->
-                <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
-                    <!-- Name -->
-                    <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
-                    <!-- Email -->
-                    <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
-                    <!-- Subject -->
-                    <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
-                </div><!-- End Left Inputs -->
-                <!-- Right Inputs -->
-                <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
-                    <!-- Message -->
-                    <textarea name="message" id="message" class="form textarea"  placeholder="Message"></textarea>
-                </div><!-- End Right Inputs -->
-                <!-- Bottom Submit -->
-                <div class="relative fullwidth col-xs-12">
-                    <!-- Send Button -->
-                    <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button> 
-                </div><!-- End Bottom Submit -->
-                <!-- Clear -->
-                <div class="clear"></div>
-            </form>
-
-            <!-- Your Mail Message -->
-            <div class="mail-message-area">
-                <!-- Message -->
-                <div class="alert gray-bg mail-message not-visible-message">
-                    <strong>Thank You !</strong> Your email has been delivered.
-                </div>
-            </div>
-
-        </div><!-- End Contact Form Area -->
-    </div><!-- End Inner -->
-
-
-
-
-
-
-
-
-    
-  </div>
   
+        <div class="container mt-5" style="font-size:15px !important;">
 
 
-  
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="#">
+                            <!-- Left Inputs -->
+                            <div class="col-xs-6" >
+                                <!-- Name -->
+                                <input type="text" name="name" id="name" required="required" class="form-control form-control-lg mb-4" placeholder="Name" />
+                                <!-- Email -->
+                                <input type="email" name="mail" id="mail" required="required"  class="form-control form-control-lg mb-4" placeholder="Email" />
+                                <!-- Subject -->
+                                <input type="text" name="subject" id="subject" required="required"  class="form-control form-control-lg" placeholder="Subject" />
+                            </div><!-- End Left Inputs -->
+                            <!-- Right Inputs -->
+                            <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+                                <!-- Message -->
+                                <textarea name="message" id="message" class="form-control form-control-lg mb-4" placeholder="Message" rows="7"></textarea>
+                            </div><!-- End Right Inputs -->
+                            <!-- Bottom Submit -->
+                            <div class=" col-xs-12">
+                                <!-- Send Button -->
+                                <button type="submit" id="submit" name="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            </div><!-- End Bottom Submit -->
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
 
+                        <!-- Your Mail Message -->
+                        <div class="mail-message-area">
+                            <!-- Message -->
+                            <div class="alert gray-bg mail-message not-visible-message">
+                                <strong>Thank You !</strong> Your email has been delivered.
+                            </div>
+                        </div>
+                </div><!-- End Inner -->
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
