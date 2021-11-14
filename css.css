@@ -32,3 +32,12 @@ padding: 30px;}
         }
         .cards{height: 500px;
         background-color: lightgray;}
+
+        .footerEnd{
+            background-color: rgb(43, 41, 41);
+            color: white;
+            height: 400px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    
