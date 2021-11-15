@@ -166,3 +166,17 @@ padding: 30px;}
         position: relative;
         z-index: 9999;
     }
+    .bread{
+      border: 2px solid #e5e5e5;
+      background-color: #e5e5e5;
+    }
+    
+    .containerBox{
+      width: 100%;
+      background-color: lightgrey;
+      padding: 20px;
+
+    }
+    .cards{
+      height: 300px;
+    }
